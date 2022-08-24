@@ -1,0 +1,66 @@
+.container{
+    height: 500px;
+    width: 350px;
+    border: 2px  rgb(50, 243, 50) solid;
+    border-radius: 50px;
+    
+}
+.sec1{
+    border-bottom: 2px  rgb(50, 243, 50) solid;
+    border-radius: 25px;
+    height: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: cente;
+   font-size: 20px;
+}
+.sec2{
+    margin: 5px;
+}
+.data{
+   height:250px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+}
+.data1{
+    border-radius: 30px;
+    margin: 8px;
+    width: 200px;
+    height: 39px;
+    box-shadow: 3px  2px black;
+    font-size: 27px;
+    
+}
+.clicks{
+   
+    font-size: 30px;
+    margin: 5px;
+    width: 105px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgb(50, 243, 50);
+    transition: transform 0.7s;
+}
+.clicks:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.city{
+    font-size: 40px;
+}
+.temp{
+    font-size: 30px;
+}
+.mini{
+    margin: 5px;
+    font-size: 20px;
+}
+.maxi{
+    margin: 5px;
+    font-size: 20px;
+    
+}
